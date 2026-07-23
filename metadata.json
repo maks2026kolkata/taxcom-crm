@@ -1,0 +1,6 @@
+{
+  "name": "Taxcom Technologies CRM",
+  "description": "A production-ready compliance tracking and client reminder system for Taxcom Technologies LLP, with automated WhatsApp/Email templates, task management, payment tracking, and a robust SaaS dashboard.",
+  "requestFramePermissions": ["notifications"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

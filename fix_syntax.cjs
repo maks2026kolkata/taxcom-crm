@@ -1,0 +1,9 @@
+const fs = require('fs');
+const file = 'src/pages/MessageTemplates.tsx';
+let code = fs.readFileSync(file, 'utf8');
+
+code = code.replace(`                  </div>
+                    ))}
+                  </div>`, `                  </div>`);
+
+fs.writeFileSync(file, code);
